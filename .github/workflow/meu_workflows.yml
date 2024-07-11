@@ -3,11 +3,11 @@ name: Contruindo e testando
 on:   
     push:
           branches:
-              -main
+              - main
 
 jobs: 
     build and test:
         runs-on: ubuntu-latest
-    steps:
+        steps:
         - name: primeiro-passo 
-        run: echo "Oi Mudo do DevOps"
+          run: echo "Oi Mudo do DevOps"
