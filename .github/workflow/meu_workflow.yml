@@ -1,0 +1,13 @@
+name: Contruindo e testando
+
+on:   
+    push:
+          branches:
+              -main
+
+jobs: 
+    build and test:
+        runs-on: ubuntu-latest
+    steps:
+        - name: primeiro-passo 
+        run: echo "Oi Mudo do DevOps"
